@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        function TimerSwitch(pic) {
+            TimerRunning=true;
+            var timer = setTimeout(function(){updatePic(pic);}, 5000);  
+        function updatePic(pic) {
+            pic.src = "static/xyz.jpg";
+        }
+    }
+    </script>
+</head>
+<body>
+    <img id="pic" src="static/xyz.jpg" />
+</body>
+</html>

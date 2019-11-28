@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+
+}
+header
+{
+    background-image: url(../light-blue-background-wallpaper-1.jpg) ;
+    height: 100vh;
+    background-position: center;
+}
+ul{
+float: center;
+list-style-type: none;
+margin-top: 40px;
+margin-left: 40 px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration-color: black;
+    padding: 50px,20px;
+    border: 1px solid black;
+}
+ul li a:hover{
+    background-color: black;
+    color: #fffdfd;
+}

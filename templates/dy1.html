@@ -1,0 +1,26 @@
+{% extends "dy0.html" %}
+{% block body %}
+<img src="static/xyz.jpg" id=img>
+<script type="text/javascript">
+var intervalID = setInterval(update_values,5000);
+
+  function update_values() {
+      //$.getJSON($SCRIPT_ROOT + '/',
+               
+    function changeImage() {
+      var img=document.getElementById("img");
+      //img.src="static/xyz.jpg";
+    }
+  }
+      
+    
+</script>
+<h1>Dynamic Update</h1>
+<body onload="update_values();">
+<p>
+  <span id="result">?</span>
+<script>
+document.getElementById("result").innerHTML;
+</script>
+	</body>
+{% endblock %}
